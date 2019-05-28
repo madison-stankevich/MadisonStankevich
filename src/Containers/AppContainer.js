@@ -17,7 +17,6 @@ class AppContainer extends Component {
     render() { 
         return ( 
             <div className="app_container">
-                APP CONTAINER.
                 <Router>
                     <NavBar/>
                     <div className="">

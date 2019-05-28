@@ -1,6 +1,11 @@
-.app_container{
+.app {
+  background-color: aqua;
   height: 100vh;
   width: 100vw;
+}
+
+.app_container{
+  background-color: bisque;
 }
 
 .homeBody {
@@ -9,8 +14,15 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .example {background-color: rgb(240, 62, 172);}
-  .nav_bar {background-color: mediumaquamarine;}
+  .app {background-color: coral;}
+  .contact_bar {
+    background-color: pink; 
+    height: 7vh; 
+    display: flexbox; 
+    flex-direction: column;}
+  .contact_bar_image {height: 6vh; border-radius:5px;}
+  .nav_bar {background-color: mediumaquamarine; height: 20vh;}
+  .app_container{ background-color: chartreuse;}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

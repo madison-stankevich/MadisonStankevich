@@ -7,7 +7,7 @@ import ContactBar from './Containers/ContactBar';
 
 function App() {
   return (
-    <div className="example">
+    <div className="app">
       <ContactBar />
       <AppContainer />
     </div>
