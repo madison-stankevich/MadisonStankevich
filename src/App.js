@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 
 import AppContainer from './Containers/AppContainer';
+import ContactBar from './Containers/ContactBar';
 
 
 function App() {
   return (
     <div className="example">
+      <ContactBar />
       <AppContainer />
     </div>
   );

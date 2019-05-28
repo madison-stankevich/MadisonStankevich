@@ -27,7 +27,10 @@ class Projects extends Component {
                     <br/><br/>
                     We used a Ruby on Rails backend to access the Dark Skies weather API and to house all of our user's data.
                     The front end was built using vanilla JS styling and React.js components.
-                    <br/><br/>                   
+                    <br/><br/>    
+                    This application is deployed live on Heroku. 
+                    Please forgive the slow load times.
+                    <br/><br/>               
                     OUR APP
                 </div>
                 <div>

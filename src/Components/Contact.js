@@ -14,6 +14,8 @@ class Contact extends Component {
                 <br/><br/>
                 Twitter
                 <br/><br/>
+                GitHub
+                <br/><br/>
                 madison.stankevich@flatironschool.com
             </div>
          );
