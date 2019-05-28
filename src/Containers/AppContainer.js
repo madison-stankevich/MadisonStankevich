@@ -7,6 +7,7 @@ import About from '../Components/About';
 import Blog from '../Components/Blog';
 import Contact from '../Components/Contact';
 import Projects from '../Components/Projects';
+import NavBar from './NavBar';
 
 class AppContainer extends Component {
     constructor(props) {
@@ -15,8 +16,9 @@ class AppContainer extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className="app_container">
                 APP CONTAINER.
+                <NavBar/>
                 <Router>
                     <div className="">
                         <Switch>
