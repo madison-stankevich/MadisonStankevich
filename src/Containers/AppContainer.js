@@ -18,8 +18,8 @@ class AppContainer extends Component {
         return ( 
             <div className="app_container">
                 APP CONTAINER.
-                <NavBar/>
                 <Router>
+                    <NavBar/>
                     <div className="">
                         <Switch>
                             <Route exact path='/home' component ={Home}/>
