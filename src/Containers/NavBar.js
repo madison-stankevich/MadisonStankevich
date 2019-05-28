@@ -18,7 +18,7 @@ class NavBar extends Component {
 
     render() { 
         return ( 
-            <div>
+            <div className="nav_bar">
                 NAVBAR.
                 {this.state.menuDisplay == false ?
                     <div>
@@ -37,6 +37,7 @@ class NavBar extends Component {
                         <Link className="" onClick={this.handleClick} to="/about">About</Link>
                         <br/>
                         <Link className="" onClick={this.handleClick} to="/contact">Contact</Link>
+                        <br/>
                     </div>
                 }
             </div>

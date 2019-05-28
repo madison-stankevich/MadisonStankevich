@@ -8,7 +8,13 @@ class Contact extends Component {
     render() { 
         return ( 
             <div>
-                CONTACT.
+                PIC.
+                <br/><br/>
+                LinkedIn
+                <br/><br/>
+                Twitter
+                <br/><br/>
+                madison.stankevich@flatironschool.com
             </div>
          );
     }

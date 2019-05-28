@@ -3,9 +3,14 @@
   width: 100vw;
 }
 
+.homeBody {
+  background-color: yellow;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .example {background-color: rgb(240, 62, 172);}
+  .nav_bar {background-color: mediumaquamarine;}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
