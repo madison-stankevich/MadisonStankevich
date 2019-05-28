@@ -19,7 +19,7 @@ class NavBar extends Component {
     render() { 
         return ( 
             <div className="nav_bar">
-                NAVBAR.
+                MADISON
                 {this.state.menuDisplay == false ?
                     <div>
                         <button onClick={this.handleClick}>Menu</button>
