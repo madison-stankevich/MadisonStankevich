@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 import { Link} from 'react-router-dom';
 
-import marble from '../Images/marble.jpg'
+import desk from '../Images/wooden-desk.jpg'
 import tea from '../Images/tea-party.jpg'
+import coffee from '../Images/coffee-table.jpg'
 
 class Home extends Component {
     constructor(props) {
@@ -19,21 +20,26 @@ class Home extends Component {
                     WELCOME
                 </div>
                 <div className="welcome_container">
-               
-                <Link className="" to="/about">
-                    <img src={tea} className="tea"/>
-                    <div className="tea_text">Meet the creator</div> 
-                </Link>   
+                    <Link className="" to="/projects">
+                        <img src={desk} className="tea"/>
+                        <div className="desk_text">Look at projects</div> 
+                    </Link>   
                 </div>
                 <div className="welcome_container">
-                    Look at projects
+                    <Link className="" to="/about">
+                        <img src={tea} className="tea"/>
+                        <div className="tea_text">Meet the creator</div> 
+                    </Link>   
                 </div>
                 <div className="welcome_container">
-                    Connect
+                    <Link className="" to="/contact">
+                        <img src={coffee} className="tea"/>
+                        <div className="coffee_text"> <br/>Connect.</div> 
+                    </Link>
                 </div>
-                <div className="body_title">
+                {/* <div className="body_title welcome_title nav_bar_menu">
                     CHEERS
-                </div> 
+                </div>  */}
             </div>
          );
     }

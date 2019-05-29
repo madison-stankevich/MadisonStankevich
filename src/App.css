@@ -52,10 +52,12 @@
   .about_headshot{ height: 31vh; border-radius: 110px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
   .contact_icon{display: flex; font-size: 18pt;}
   .contact_page_image{height:24px;}
-  .welcome_container{background-color: #FFF2F8; width: 100vw; padding-top: 3vw; padding-bottom: 3vw; margin-bottom: 2vh; position: relative;}
+  .welcome_container{background-color: #FFF2F8; width: 100vw; padding-top: 3vw; padding-bottom: 3vw; margin-bottom: 5vh; position: relative;}
   .welcome_title{text-align: center; font-size: 24pt; }
   .tea{width: 100vw;}
   .tea_text{position: absolute; top: 6vh; left: 33vw; font-size: 40pt;font-family: 'Playfair Display SC', serif; color: #FF89C1;}
+  .coffee_text{position: absolute; top: 6vh; left: 5vw; font-size: 44pt; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
+  .desk_text{position: absolute; top: 15vh; left: 40vw; font-size: 44pt; color: white; font-family: 'Montserrat', sans-serif; font-weight: 400;}
 } 
 
 
