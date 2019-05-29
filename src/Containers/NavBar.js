@@ -24,6 +24,10 @@ class NavBar extends Component {
                 <div className="nav_bar_name">
                     Madison
                 </div >
+                <div>
+                    Always coding. Ususally in pink.
+                    <br/> <br/>
+                </div>
                 {this.state.menuDisplay == false ?
                     <div className="nav_bar_menu flex_center_column">
                         <a className="nav_bar_link nav_bar_bold" onClick={this.handleClick}> Menu</a>
