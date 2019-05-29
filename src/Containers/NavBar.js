@@ -24,7 +24,7 @@ class NavBar extends Component {
                 <div className="nav_bar_name">
                     Madison
                 </div >
-                <div>
+                <div className="nav_bar_tagline">
                     Always coding. Ususally in pink.
                     <br/> <br/>
                 </div>

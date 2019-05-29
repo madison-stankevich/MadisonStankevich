@@ -19,23 +19,25 @@ class Home extends Component {
                     <br/>
                     WELCOME
                 </div>
-                <div className="welcome_container">
-                    <Link className="" to="/projects">
-                        <img src={desk} className="tea"/>
-                        <div className="desk_text">Look at projects</div> 
-                    </Link>   
-                </div>
-                <div className="welcome_container">
-                    <Link className="" to="/about">
-                        <img src={tea} className="tea"/>
-                        <div className="tea_text">Meet the creator</div> 
-                    </Link>   
-                </div>
-                <div className="welcome_container">
-                    <Link className="" to="/contact">
-                        <img src={coffee} className="tea"/>
-                        <div className="coffee_text"> <br/>Connect.</div> 
-                    </Link>
+                <div className="welcome_outer_container">
+                    <div className="welcome_container">
+                        <Link className="" to="/projects">
+                            <img src={desk} className="tea"/>
+                            <div className="desk_text">Look at projects</div> 
+                        </Link>   
+                    </div>
+                    <div className="welcome_container">
+                        <Link className="" to="/about">
+                            <img src={tea} className="tea"/>
+                            <div className="tea_text">Meet the creator</div> 
+                        </Link>   
+                    </div>
+                    <div className="welcome_container">
+                        <Link className="" to="/contact">
+                            <img src={coffee} className="tea"/>
+                            <div className="coffee_text"> <br/>Connect.</div> 
+                        </Link>
+                    </div>
                 </div>
                 {/* <div className="body_title welcome_title nav_bar_menu">
                     CHEERS

@@ -20,7 +20,7 @@ class About extends Component {
                 Before getting into coding, I worked in a Dermatology office and a Medical Spa.
                 <br/><br/>
                 In January 2019 I committed to coding full time by starting the Software Engineering immersion program at The Flatiron School.
-                Fifteen weeks later, I am armed with a valuable new skillset and am incredibly excited to start my first job as a developer.
+                Fifteen weeks later, I am armed with a valuable new skillset and am incredibly excited to begin my career as a developer.
                 <br/><br/>
                 Currently working with: Ruby | Rails | JavaScript | React.js | HTML5 | CSS 
                 <br/><br/>

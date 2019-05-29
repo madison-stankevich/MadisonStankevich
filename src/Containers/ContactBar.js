@@ -21,7 +21,7 @@ class ContactBar extends Component {
                 <div>
                     <a href="https://github.com/madison-stankevich" target="_blank"><img src={github}  className="contact_bar_image"/></a>
                 </div> 
-                <div>
+                <div className="border_twitter">
                     <a href="https://twitter.com/SheCodesInPink" target="_blank"><img src={twitter} className="contact_bar_image"/></a>  
                 </div>
                 {/* <div>
