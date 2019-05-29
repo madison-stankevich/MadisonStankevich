@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import { Link} from 'react-router-dom';
+import menu from '../Images/black-burger-menu.png'
+
 
 class NavBar extends Component {
     constructor(props) {
@@ -18,26 +20,22 @@ class NavBar extends Component {
 
     render() { 
         return ( 
-            <div className="nav_bar">
-                MADISON
+            <div className="nav_bar flex_center_column">
+                <div className="nav_bar_name">
+                    Madison
+                </div >
                 {this.state.menuDisplay == false ?
-                    <div>
-                        <button onClick={this.handleClick}>Menu</button>
+                    <div className="nav_bar_menu flex_center_column">
+                        <a className="nav_bar_link nav_bar_bold" onClick={this.handleClick}> Menu</a>
                     </div>
                     :
-                    <div>
-                        <button onClick={this.handleClick}>Menu</button>
-                        <br/>
-                        <Link className="" onClick={this.handleClick} to="/home">Home</Link>
-                        <br/>
-                        <Link className="" onClick={this.handleClick} to="/projects">Projects</Link>
-                        <br/>
-                        <Link className="" onClick={this.handleClick} to="/blog">Blog</Link>
-                        <br/>
-                        <Link className="" onClick={this.handleClick} to="/about">About</Link>
-                        <br/>
-                        <Link className="" onClick={this.handleClick} to="/contact">Contact</Link>
-                        <br/>
+                    <div className="nav_bar_menu flex_center_column">
+                        <a className="nav_bar_link nav_bar_bold" onClick={this.handleClick}>Menu</a>
+                        <Link className="nav_bar_link" onClick={this.handleClick} to="/home">Home</Link>
+                        <Link className="nav_bar_link" onClick={this.handleClick} to="/projects">Projects</Link>
+                        <Link className="nav_bar_link" onClick={this.handleClick} to="/blog">Blog</Link>
+                        <Link className="nav_bar_link" onClick={this.handleClick} to="/about">About</Link>
+                        <Link className="nav_bar_link" onClick={this.handleClick} to="/contact">Contact</Link>
                     </div>
                 }
             </div>

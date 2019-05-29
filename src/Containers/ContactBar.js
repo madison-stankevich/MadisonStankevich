@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+// import { Link} from 'react-router-dom';
+
 import github from '../Images/pink-github.png'
 import linkedin from '../Images/pink-linkedin.png'
 import twitter from '../Images/pink-twitter-3.png'

@@ -7,7 +7,10 @@ class Contact extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className="body">
+                <div className="body_title">
+                    CONTACT
+                </div> 
                 PIC.
                 <br/><br/>
                 LinkedIn

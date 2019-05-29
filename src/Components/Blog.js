@@ -7,7 +7,10 @@ class Blog extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className="body">
+                <div className="body_title">
+                    BLOG
+                </div> 
                 BLOG.
             </div>
          );

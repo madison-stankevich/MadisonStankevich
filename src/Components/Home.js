@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import marble from '../Images/marble.jpg'
+
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -7,7 +9,8 @@ class Home extends Component {
     }
     render() { 
         return ( 
-            <div className="homeBody">
+            <div className="body">
+                {/* <img className="marblepic" src={marble}/> */}
                 Welcome to the personal website of Madison Stankevich.
                 <br/><br/>
                 This site documents one woman's journey into tech.

@@ -8,8 +8,10 @@ class About extends Component {
     }
     render() { 
         return ( 
-            <div>
-                ABOUT ME 
+            <div className="body">
+                <div className="body_title">
+                    ABOUT
+                </div> 
                 <br/><br/>
                 PIC
                 <br/><br/>

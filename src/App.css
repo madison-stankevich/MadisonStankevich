@@ -1,28 +1,54 @@
 .app {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100vh;
   width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #3E4545;
 }
 
 .app_container{
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 .homeBody {
   background-color: yellow;
+  padding: 4vw;
+  padding-top: 4vh;
+}
+
+.flex_center_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.marblepic {
+  height: 15vh;
+  width: 100vw;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .app {background-color: coral;}
-  .contact_bar {
-    background-color: pink; 
-    height: 7vh; 
-    display: flexbox; 
-    flex-direction: column;}
-  .contact_bar_image {height: 6vh; border-radius:5px;}
-  .nav_bar {background-color: mediumaquamarine; height: 20vh;}
-  .app_container{ background-color: chartreuse;}
+  /* .app {background-color: coral;} */
+  .contact_bar {height: 7vh; display: flex; align-items: center; justify-content: flex-start; padding: 1vw; border-bottom: 1px solid #DEE2E2; }
+  .contact_bar_image {height: 5vh; border-radius:5px; margin: 0.8vw;}
+  .nav_bar {}
+  .nav_bar_name {width: 100%; font-family: 'Playfair Display SC', serif; font-size: 35pt; font-weight: 700; text-align: center; height: 10vh; padding: 3vh;}
+  .nav_bar_menu {width: 100%; padding: 1vh;background-color: #ffd5e9;}
+  .nav_bar_link {text-align: center; padding: 0.5vh; text-decoration: none; color: black;}
+  .nav_bar_bold {font-family: 'Playfair Display SC', serif; font-size: 15pt; font-weight: 400;}
+  .body {padding: 4vw; padding-top: 4vh;}
+  .body_title {font-size: 18pt; font-weight: 700; padding-bottom: 3vh;}
+  .project_container{
+    background-color: #FFF2F8;
+    padding: 3vw;
+    margin: 0.2vh;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+  
+  }
+  .video{width: 85vw;}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
