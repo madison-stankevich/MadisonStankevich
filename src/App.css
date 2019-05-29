@@ -32,21 +32,21 @@
 .grow:hover { transform: scale(1.1); }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   /* .app {background-color: coral;} */
   .contact_bar {height: 7vh; display: flex; align-items: center; justify-content: flex-start; padding: 1vw; border-bottom: 1px solid #DEE2E2; background-color: white; top: 0; position: fixed; width: 100vw; z-index: 1;}
   .contact_bar_image {height: 5vh; border-radius:5px; margin: 0.8vw;}
   .nav_bar {margin-top: 7vh; width: 100vw;}
-  .nav_bar_name {width: 100%; font-family: 'Playfair Display SC', serif; font-size: 18vw; font-weight: 700; text-align: center; height: 10vh; padding-top: 2vh; margin-bottom: 1vh;}
+  .nav_bar_name {width: 100vw; font-family: 'Playfair Display SC', serif; font-size: 18vw; font-weight: 700; text-align: center; height: 10vh; padding-top: 2vh; margin-bottom: 1vh;}
   .nav_bar_tagline {font-size: 4.5vw; padding-top: 2vh;}
-  .nav_bar_menu {width: 100%; padding: 1vh;background-color: #ffd5e9;}
+  .nav_bar_menu {width: 100vw; padding: 1vh;background-color: #ffd5e9;}
   .nav_bar_link {text-align: center; padding: 0.5vh; text-decoration: none; color: #3E4545}
   .nav_bar_bold {font-family: 'Playfair Display SC', serif; font-size: 15pt; font-weight: 400;}
   .body {padding: 4vw;  padding-top: 2vh;}
-  .body_title {font-size: 18pt; font-weight: 700; padding-bottom: 3vh;}
+  .body_title {font-size: 22pt; font-weight: 700; padding-bottom: 3vh;}
   .project_container{background-color: #FFF2F8;padding: 3vw;margin: 0.2vh;margin-bottom: 5vh;border-radius: 5px;}
   .video{width: 85vw;}
-  .about_headshot{ height: 31vh; border-radius: 110px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
+  .about_headshot{ height: 31vh; border-radius: 0px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
   .contact_icon{display: flex; font-size: 18pt;}
   .contact_page_image{height:24px;}
   .welcome_outer_container{}
@@ -56,16 +56,18 @@
   .tea_text{position: absolute; top: 6vh; left: 33vw; font-size: 13vw;font-family: 'Playfair Display SC', serif; color: #FF89C1;}
   .coffee_text{position: absolute; top: 6vh; left: 5vw; font-size: 13vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
   .desk_text{position: absolute; top: 15vh; left: 40vw; font-size: 13vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 400;}
+  .not_found{text-align: center; margin: 5vh;}
+  .pink_link{color: #FF89C1}
 } 
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .example {background-color: orange;}
-} 
+}  */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .example {background-color: yellow;}
   .contact_bar {height: 4vh; display: flex; align-items: center; justify-content: flex-end; padding-right: 2vw; padding-top: 1vw; border-bottom: 1px solid #DEE2E2; background-color: white; top: 0; position: fixed; width: 100vw; z-index: 1;}
   .contact_bar_image {height: 3vh; border-radius:5px; margin: 0.8vw;}
@@ -79,7 +81,7 @@
   .body_title {font-size: 18pt; font-weight: 700; padding-bottom: 3vh;}
   .project_container{background-color: #FFF2F8;padding: 3vw;margin: 0.2vh;margin-bottom: 5vh;border-radius: 5px;}
   .video{width: 85vw;}
-  .about_headshot{ height: 31vh; border-radius: 110px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
+  .about_headshot{ height: 31vh; border-radius: 0px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
   .contact_icon{display: flex; font-size: 19pt;}
   .contact_page_image{height:23px;}
   .welcome_outer_container{}
@@ -89,10 +91,12 @@
   .tea_text{position: absolute; top: 10vh; left: 33vw; font-size: 12vw;font-family: 'Playfair Display SC', serif; color: #FF89C1;}
   .coffee_text{position: absolute; top: 6vh; left: 6vw; font-size: 13vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
   .desk_text{position: absolute; top: 20vh; left: 40vw; font-size: 14vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 400;}
+  .not_found{text-align: center; margin: 5vh;}
+  .pink_link{color: #FF89C1}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 700px) {
   .example {background-color: greenyellow;}
   .contact_bar {height: 5vh; display: flex; align-items: center; justify-content: flex-end; padding: 1vw; border-bottom: 1px solid #DEE2E2; background-color: white; top: 0; position: fixed; width: 100vw; z-index: 1;}
   .contact_bar_image {height: 4.5vh; border-radius:5px; margin: 0.8vw;}
@@ -106,21 +110,24 @@
   .body {padding: 4vw;  padding-top: 2vh;}
   .body_title {font-size: 18pt; font-weight: 700; padding-bottom: 3vh;}
   .project_container{background-color: #FFF2F8;padding: 3vw;margin: 0.2vh;margin-bottom: 5vh;border-radius: 5px;}
-  .video{width: 85vw;}
-  .about_headshot{ height: 31vh; border-radius: 110px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
-  .contact_icon{display: flex; font-size: 19pt;}
-  .contact_page_image{height:23px;}
-  .welcome_outer_container{ display: flex;}
-  .welcome_container{background-color: #FFF2F8; width: 30vw; padding-top: 2vw; padding-bottom: 2vw; margin-bottom: 5vh; position: relative; margin: 2vw; display: flex; flex-direction: column; border-radius: 3px;}
+  .video{width: 85vw; max-width: 600px;}
+  .about_headshot{ height: 31vh; border-radius: 0px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
+  .contact_icon{display: flex; font-size: 19pt; align-content: center; justify-content: flex-start;}
+  .contact_page_image{height: 5vh;}
+  .welcome_outer_container{ display: flex; align-items: flex-start; justify-content: center;}
+  .welcome_container{background-color: white; width: 30vw; margin-bottom: 8vh; position: relative; margin: 1vw; display: flex; flex-direction: column;}
   .welcome_title{text-align: center; font-size: 5vw; }
-  .tea{width: 90%; display: block; margin-left: auto; margin-right: auto;}
-  .tea_text{position: absolute; top: 9vh; left: 9.5vw; font-size: 3vw;font-family: 'Playfair Display SC', serif; color: #FF89C1;}
-  .coffee_text{position: absolute; top: 4vh; left: 5vw; font-size: 3vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
-  .desk_text{position: absolute; top: 18.5vh; left: 13vw; font-size: 3vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
-
+  .tea{width: 90%; display: block; margin-left: auto; margin-right: auto; border: solid 15pt #FFF2F8;}
+  .tea_text{position: absolute; top: 14vh; left: 9.5vw; font-size: 3vw;font-family: 'Playfair Display SC', serif; color: #FF89C1;}
+  .coffee_text{position: absolute; top: 7vh; left: 5vw; font-size: 3vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
+  .desk_text{position: absolute; top: 22vh; left: 13vw; font-size: 3vw; color: white; font-family: 'Montserrat', sans-serif; font-weight: 300;}
+  .coffee_height{height: 23vh;}
+  .desk_height{height: 25.2vh;}
+  .not_found{text-align: center; margin: 5vh;}
+  .pink_link{color: #FF89C1}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .example {background-color: turquoise;}
-}
+} */

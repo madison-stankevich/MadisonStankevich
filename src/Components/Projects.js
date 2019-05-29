@@ -24,7 +24,7 @@ class Projects extends Component {
                     This was my first extensive encounter with Flexbox and Grid.
                     <br/><br/>
                     Watch the demo below or open with YouTube{" "}
-                    <a href="https://www.youtube.com/watch?v=3XVw0uuRL9E" target="_blank">here</a>.  
+                    <a href="https://www.youtube.com/watch?v=3XVw0uuRL9E" className="pink_link" target="_blank">here</a>.  
                     <br/><br/>
                     <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/3XVw0uuRL9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -41,7 +41,7 @@ class Projects extends Component {
                     Please forgive the slow load times.
                     <br/><br/>               
                     Link to website{" "}
-                    <a href="https://www.youtube.com/watch?v=hiRDU-swJhw" target="_blank">here</a>. 
+                    <a href="https://www.youtube.com/watch?v=hiRDU-swJhw" className="pink_link" target="_blank">here</a>. 
                 </div>
                 <div className="project_container">
                     "CAT FEEDER"
@@ -68,7 +68,7 @@ class Projects extends Component {
                     It is amazing to look back and see how far I have come in such a short time.
                     <br/><br/>
                     Watch the demo below or open with YouTube{" "}
-                    <a href="https://www.youtube.com/watch?v=hiRDU-swJhw" target="_blank">here</a>.  
+                    <a href="https://www.youtube.com/watch?v=hiRDU-swJhw" className="pink_link" target="_blank">here</a>.  
                     <br/><br/>
                     <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/hiRDU-swJhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>

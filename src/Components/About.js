@@ -26,7 +26,7 @@ class About extends Component {
                 <br/><br/>
                 If you are curious about my journey or have questions about my projects, please feel free to reach out to me. 
                 My contact information can be found{" "}
-                <Link className="" onClick={this.handleClick} to="/contact">here</Link>.
+                <Link className="pink_link" to="/contact">here</Link>.
             </div>
          );
     }

@@ -8,6 +8,7 @@ import Blog from '../Components/Blog';
 import Contact from '../Components/Contact';
 import Projects from '../Components/Projects';
 import NavBar from './NavBar';
+import NotFound from '../Components/NotFound';
 
 class AppContainer extends Component {
     constructor(props) {
@@ -20,12 +21,14 @@ class AppContainer extends Component {
                 <Router>
                     <NavBar/>
                     <div className="">
+
                         <Switch>
                             <Route exact path='/home' component ={Home}/>
                             <Route exact path='/about' component ={About}/>
                             <Route exact path='/contact' component ={Contact}/>
                             <Route exact path='/projects' component={Projects}/>
                             <Route exact path='/blog' component={Blog}/>
+                            <Route path="*" component={NotFound} />
                         </Switch>
                     </div>
                 </Router>

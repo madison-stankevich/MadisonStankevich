@@ -20,19 +20,19 @@ class Home extends Component {
                     WELCOME
                 </div>
                 <div className="welcome_outer_container">
-                    <div className="welcome_container">
+                    <div className="welcome_container desk_height grow">
                         <Link className="" to="/projects">
                             <img src={desk} className="tea"/>
                             <div className="desk_text">Look at projects</div> 
                         </Link>   
                     </div>
-                    <div className="welcome_container">
+                    <div className="welcome_container grow">
                         <Link className="" to="/about">
                             <img src={tea} className="tea"/>
                             <div className="tea_text">Meet the creator</div> 
                         </Link>   
                     </div>
-                    <div className="welcome_container">
+                    <div className="welcome_container coffee_height grow">
                         <Link className="" to="/contact">
                             <img src={coffee} className="tea"/>
                             <div className="coffee_text"> <br/>Connect.</div> 
