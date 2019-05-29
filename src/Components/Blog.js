@@ -29,7 +29,7 @@ class Blog extends Component {
                     Today is the day I officially deployed this site. 
                     I am very proud of what I was able to create in such a short amount of time.
                     <br/><br/>
-                    I completed this website in about three several hour sprints, including the conceptualization and design process.
+                    I completed this website in about three several hour sessions, including the conceptualization and design process.
                     It is a JavaScript/React.js site made without a styling framework.
                     This site is hosted live from Heroku, which is pulling content from my GitHub.
                     <br/><br/>
