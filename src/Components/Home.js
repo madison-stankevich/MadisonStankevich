@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
+import { Link} from 'react-router-dom';
+
 import marble from '../Images/marble.jpg'
+import tea from '../Images/tea-party.jpg'
 
 class Home extends Component {
     constructor(props) {
@@ -9,15 +12,28 @@ class Home extends Component {
     }
     render() { 
         return ( 
-            <div className="body">
+            <div className="">
                 {/* <img className="marblepic" src={marble}/> */}
-                Welcome to the personal website of Madison Stankevich.
-                <br/><br/>
-                This site documents one woman's journey into tech.
-                <br/><br/>
-                Don't know where to start?
-                <br/>
-                Check out the projects, blog, and about sections.
+                <div className="body_title welcome_title">
+                    <br/>
+                    WELCOME
+                </div>
+                <div className="welcome_container">
+               
+                <Link className="" to="/about">
+                    <img src={tea} className="tea"/>
+                    <div className="tea_text">Meet the creator</div> 
+                </Link>   
+                </div>
+                <div className="welcome_container">
+                    Look at projects
+                </div>
+                <div className="welcome_container">
+                    Connect
+                </div>
+                <div className="body_title">
+                    CHEERS
+                </div> 
             </div>
          );
     }

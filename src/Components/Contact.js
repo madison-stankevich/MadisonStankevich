@@ -15,7 +15,7 @@ class Contact extends Component {
                 <div className="body_title">
                     CONTACT
                 </div> 
-                You can reach me through any of the following channels:
+                I am available through any of the following channels (click below):
                 <div>
                     <br/><br/>
                 <a href="https://www.linkedin.com/in/madison-stankevich/" className ="nav_bar_link contact_icon" target="_blank"><img src={linkedin} className="contact_bar_image contact_page_image"/> LinkedIn</a>

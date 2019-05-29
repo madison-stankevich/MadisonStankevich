@@ -31,9 +31,9 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /* .app {background-color: coral;} */
-  .contact_bar {height: 7vh; display: flex; align-items: center; justify-content: flex-start; padding: 1vw; border-bottom: 1px solid #DEE2E2; background-color: white; }
+  .contact_bar {height: 7vh; display: flex; align-items: center; justify-content: flex-start; padding: 1vw; border-bottom: 1px solid #DEE2E2; background-color: white; top: 0; position: fixed; width: 100vw;}
   .contact_bar_image {height: 5vh; border-radius:5px; margin: 0.8vw;}
-  .nav_bar {}
+  .nav_bar {margin-top: 7vh; width: 100vw;}
   .nav_bar_name {width: 100%; font-family: 'Playfair Display SC', serif; font-size: 35pt; font-weight: 700; text-align: center; height: 10vh; padding: 3vh;}
   .nav_bar_menu {width: 100%; padding: 1vh;background-color: #ffd5e9;}
   .nav_bar_link {text-align: center; padding: 0.5vh; text-decoration: none; color: #3E4545}
@@ -52,6 +52,10 @@
   .about_headshot{ height: 31vh; border-radius: 110px; float: left; padding-right: 4vw; padding-bottom: 1vw;}
   .contact_icon{display: flex; font-size: 18pt;}
   .contact_page_image{height:24px;}
+  .welcome_container{background-color: #FFF2F8; width: 100vw; padding-top: 3vw; padding-bottom: 3vw; margin-bottom: 2vh; position: relative;}
+  .welcome_title{text-align: center; font-size: 24pt; }
+  .tea{width: 100vw;}
+  .tea_text{position: absolute; top: 6vh; left: 33vw; font-size: 40pt;font-family: 'Playfair Display SC', serif; color: #FF89C1;}
 } 
 
 
