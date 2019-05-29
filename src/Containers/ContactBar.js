@@ -24,9 +24,9 @@ class ContactBar extends Component {
                 <div>
                     <a href="https://twitter.com/SheCodesInPink" target="_blank"><img src={twitter} className="contact_bar_image"/></a>  
                 </div>
-                <div>
+                {/* <div>
                     <img src={home} className="contact_bar_image"/>
-                </div>
+                </div> */}
             </div>
          );
     }

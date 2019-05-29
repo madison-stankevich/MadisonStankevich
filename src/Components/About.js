@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link} from 'react-router-dom';
 
+import headshot from '../Images/headshot.jpeg'
+
 class About extends Component {
     constructor(props) {
         super(props);
@@ -12,9 +14,7 @@ class About extends Component {
                 <div className="body_title">
                     ABOUT
                 </div> 
-                <br/><br/>
-                PIC
-                <br/><br/>
+                <img className="about_headshot" src={headshot}/>
                 My name is Madison Stankevich. 
                 I am a Web Developer with a background in nursing.
                 Before getting into coding, I worked in a Dermatology office and a Medical Spa.
