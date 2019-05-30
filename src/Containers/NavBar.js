@@ -25,7 +25,7 @@ class NavBar extends Component {
                     Madison
                 </div >
                 <div className="nav_bar_tagline">
-                    Always coding. Ususally in pink.
+                    Always coding. Usually in pink.
                     <br/> <br/>
                 </div>
                 {this.state.menuDisplay == false ?
