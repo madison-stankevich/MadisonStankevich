@@ -4,6 +4,7 @@
   width: 100vw;
   font-family: 'Montserrat', sans-serif;
   color: #3E4545;
+  overflow-x: hidden;
 }
 
 .app_container{
