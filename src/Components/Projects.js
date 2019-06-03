@@ -12,8 +12,10 @@ class Projects extends Component {
                     PROJECTS
                 </div> 
                 <div className="project_container">
-                    "VERIFY"
-                    <br/><br/>
+                    <div className="project_name">
+                        VERIFY
+                    </div>
+                    <br/>
                     Verify is an application for those who are proactive about their sexual health; it is an STD result sharing application.
                     I used a Ruby on Rails backend and a React.js frontend. 
                     <br/><br/>
@@ -29,8 +31,10 @@ class Projects extends Component {
                     <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/3XVw0uuRL9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="project_container">
-                    "WEEKEND WEATHER WATCHER"
-                    <br/><br/>
+                    <div className="project_name">
+                        WEEKEND WEATHER WATCHER
+                    </div>
+                    <br/>
                     Weekend Weather Watcher is an application that keeps track of the upcoming weekend's weather in your favorite locations.
                     This application is meant as a tool to help you make last minute travel plans according to the weather. 
                     <br/><br/>
@@ -44,8 +48,10 @@ class Projects extends Component {
                     <a href="https://www.youtube.com/watch?v=hiRDU-swJhw" className="pink_link" target="_blank">here</a>. 
                 </div>
                 <div className="project_container">
-                    "CAT FEEDER"
-                    <br/><br/>
+                    <div className="project_name">
+                        CAT FEEDER
+                    </div>
+                    <br/>
                     The most quirky project I have been a part of is a cute little one-page website called "Cat Feeder".
                     This application is a website with what appears to be multiple cat profiles with attributes like a bio and favorite food.
                     The user can "feed" a cat (although only once) and change the cat's favorite food.
@@ -60,8 +66,10 @@ class Projects extends Component {
                     [Demo video is in the works]
                 </div>
                 <div className="project_container">
-                    "EVENT FINDR"
-                    <br/><br/>
+                    <div className="project_name">
+                        EVENT FINDR
+                    </div>
+                    <br/>
                     My first application was a simple CLI ("command line interface") program that you can run on your computer's terminal.
                     My partner, Lucy, and I used TicketMaster's event API in order to provide event information to the user according to their specified requirements.
                     <br/><br/>
