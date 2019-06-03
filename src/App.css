@@ -32,6 +32,8 @@
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
+.nav_bar_link:hover {color: white}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
   /* .app {background-color: coral;} */
