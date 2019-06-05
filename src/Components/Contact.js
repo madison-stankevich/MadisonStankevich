@@ -18,13 +18,13 @@ class Contact extends Component {
                 I am available through any of the following channels (click below):
                 <div>
                     <br/><br/>
-                <a href="https://www.linkedin.com/in/madison-stankevich/" className ="nav_bar_link contact_icon" target="_blank"><img src={linkedin} className="contact_bar_image contact_page_image"/> LinkedIn</a>
+                <a href="https://www.linkedin.com/in/madison-stankevich/" className ="nav_bar_link contact_icon pink_hover" target="_blank"><img src={linkedin} className="contact_bar_image contact_page_image"/> LinkedIn</a>
                 </div>
                 <div>
-                    <a href="https://github.com/madison-stankevich" className ="nav_bar_link contact_icon" target="_blank"><img src={github}  className="contact_bar_image contact_page_image"/> GitHub</a>
+                    <a href="https://github.com/madison-stankevich" className ="nav_bar_link contact_icon pink_hover" target="_blank"><img src={github}  className="contact_bar_image contact_page_image"/> GitHub</a>
                 </div> 
                 <div>
-                    <a href="https://twitter.com/SheCodesInPink" className ="nav_bar_link contact_icon" target="_blank"><img src={twitter} className="contact_bar_image contact_page_image"/> Twitter</a>  
+                    <a href="https://twitter.com/SheCodesInPink" className ="nav_bar_link contact_icon pink_hover" target="_blank"><img src={twitter} className="contact_bar_image contact_page_image"/> Twitter</a>  
                 </div>
                 <br/><br/>
                 madison.stankevich@flatironschool.com

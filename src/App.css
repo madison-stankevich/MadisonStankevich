@@ -33,7 +33,7 @@
 .grow:hover { transform: scale(1.1); }
 
 .nav_bar_link:hover {color: white}
-
+.pink_hover:hover {color: #FF89C1}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 500px) {
   /* .app {background-color: coral;} */
